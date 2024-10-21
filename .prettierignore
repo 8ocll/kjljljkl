@@ -1,0 +1,25 @@
+# compiled dependencies
+/public/resources/js
+
+# resourcepacks
+/public/resourcepacks/*/assets/**
+*.mcmeta
+
+# compiled css dependencies
+/public/resources/scss/*.bundle.css
+/public/resources/scss/inventory.css
+
+# compiled css from sass
+/public/resources/css/**
+
+# ejs
+**/*.ejs
+
+# icomoon font config
+/public/resources/fonts/icomoon/selection.json
+
+# pnpm
+pnpm-lock.yaml
+
+# cache
+/cache
